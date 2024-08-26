@@ -8,6 +8,7 @@
     line-height: 150%;
     
     }
+    
     .logo{
     padding-top: 20px;
     margin-left: 30px;
@@ -39,7 +40,6 @@
     
     background: white;
     background-image: url("./imagenes/Muñeco.png") , url("./imagenes/msn.png");
-    width: 50% 50%;
     background-position: left top, right bottom;
     background-repeat: no-repeat;
     border: none;
@@ -80,8 +80,6 @@
     height: 67px;
     width: 300px;
     }
-    
-    
     
     .btn__copiar{
     
