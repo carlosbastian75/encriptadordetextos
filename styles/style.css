@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #D8DFE8;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 150%;
+    
+    }
+    .logo{
+    padding-top: 20px;
+    margin-left: 30px;
+    width: 5%;
+    }
+    
+    main {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    }
+    
+    .text__area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+    
+    }
+    
+    ::placeholder { color: #0A3871; }
+    .text__area:focus {
+    outline: none;
+    }
+    
+    
+    .mensaje{
+    
+    background: white;
+    background-image: url("./imagenes/Muñeco.png") , url("./imagenes/msn.png");
+    width: 50% 50%;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 700px;
+    margin-top: 100px;
+    padding-left: 20px;
+    position: absolute;
+    }
+    .mensaje:focus {
+    outline: none;
+    }
+    
+    .botones{
+    display: flex;
+    margin-top: 18px;
+    
+    }
+    
+    .btn__desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 300px;
+    }
+    
+    .btn__encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 300px;
+    }
+    
+    
+    
+    .btn__copiar{
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 625px;
+    position: fixed;
+    width: 300px;
+    }
+
+    .footer{
+    color: #0A3871;
+    text-align: center;
+    font-family: 'Inter';
+    font size: 16px;
+    font weight: 100;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    }
+    
+    .informacion {
+    color: #495057;
+    font-size: 18px;
+    }
